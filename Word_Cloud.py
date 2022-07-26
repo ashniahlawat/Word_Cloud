@@ -6,7 +6,7 @@ import fileupload
 import io
 import sys
 import os
-my_file = open('Sherlock.txt', 'rt')
+my_file = open('#file', 'rt')
 file_contents = my_file.read()
 
 def calculate_frequencies(file_contents):
